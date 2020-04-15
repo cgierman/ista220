@@ -1,0 +1,19 @@
+# Chance Gierman
+
+## 01 March 2020
+
+1. You access a property by using the same syntax that you use to access a field.
+
+1. The compiler automatically translates this field-like syntax into calls to accessor methods
+
+1. To combine methods and data within a class; in other words, to support classification
+
+1. yes
+
+1. Read Only example(You would Read the values that you have set) Write Only example(set a username, password, phone number)
+
+1. If you wanted to make information harder to retirive such as passwords and public would be searching for a information in a database
+
+1. You can assign a value through a property of a structure or class only after the structure or class has been initialized. You can’t use a property as a ref or an out argument to a method. A property can contain at most one get accessor and one set accessor. A property cannot contain other methods, fields, or properties. The get and set accessors cannot take any parameters. You can’t declare properties by using const.
+
+1. you can initialize the value to the fields or properties of a class at the time of creating an object without calling a constructor. Example ex1 = new Example {info}

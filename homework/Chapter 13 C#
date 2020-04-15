@@ -1,0 +1,29 @@
+# Chance Gierman
+
+## 23 Feb 2020
+
+1. Using interfaces, you can truly separate the “what“ from the “how.” An interface gives you only the name, return type, and parameters of the method.
+
+1. Defining an interface is syntactically similar to defining a class, except that you use the interface keyword instead of the class keyword.
+
+1. An interface cannot contain any data; you cannot add fields (not even private ones) to an interface.
+
+1. To implement an interface, you declare a class or structure that inherits from the interface and that implements all the methods specified by the interface.
+
+1. yes, All methods implementing an interface must be publicly accessible.
+
+1. In the same way that you can reference an object by using a variable defined as a class that is higher up the hierarchy, you can reference an object by using a variable defined as an interface that the object’s class implements.
+
+1. If a structure or class implements more than one interface, you specify the interfaces as a comma-separated list.
+
+1. you specify which interface a method belongs to when you implement it.
+
+1. You’re not allowed to define any fields in an interface, not even static fields. You’re not allowed to define any constructors in an interface. You’re not allowed to define a destructor in an interface. You cannot specify an access modifier for any method. You cannot nest any types (such as enumerations, structures, classes, or interfaces) inside an interface. An interface is not allowed to inherit from a structure or a class, although an interface can inherit from another interface. 
+
+1. an Abstract Class can contain implementation of methods, fields, constructors, etc, while an Interface only contains method and property prototypes. 
+
+1. An abstract method is similar in principle to a virtual method, except that it does not contain a method body.
+
+1. you can use the sealed keyword to prevent a class from being used as a base class.
+
+1. You can also use the sealed keyword to declare that an individual method in an unsealed class is sealed. This means that a derived class cannot override this method.

@@ -1,0 +1,29 @@
+# Chance Gierman
+
+##20 Feb 2020
+
+1. Inheritance in programming is all about classification—it’s a relationship between classes.
+
+1. class DerivedClass : BaseClass
+
+1. System.Object class
+
+1. If you don’t provide one, the compiler generates a default constructor for you
+
+1. no,
+
+1. No, because they would have to be the same instance.
+
+1. If a base class and a derived class happen to declare two methods that have the same signature, you will receive a warning when you compile the application.
+
+1. want the two methods to have the same signature
+
+1. A method that is intended to be overridden is called a virtual method. 
+
+1. Overriding a method is a mechanism for providing different implementations of the same method—the methods are all related because they are intended to perform the same task, but in a class-specific manner.
+
+1. You define an extension method in a static class and specify the type to which the method applies as the first parameter to the method, along with the this keyword.
+
+1. you can extend an existing type (a class or structure) with additional static methods. 
+
+1. The Liskov Substitution Principle says that the object of a derived class should be able to replace an object of the base class without bringing any errors in the system or modifying the behavior of the base class.

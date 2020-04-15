@@ -1,0 +1,25 @@
+# Chance Gierman
+
+## 28 Jan 2020
+
+1. combine any arithmetic operator with the assignment operator, answer += number
+
+1. +=, *=, /=, %=, -=
+
+1. count += 5; count ++ 5; count -= 50, count -- 50;
+
+1. it will run a statement repeatedly for as long as some condition is true.
+
+1. Iteration is just a fancy word for a loop, Iteration statement will perform operations a set number of times until you tell it to stop, with a true or false value. 
+
+1. it	is	recommended	that	you	always	use	a	block with	a	while	statement,	even	if	the	block	contains	only	a	single	statement. This	way,	if	you	decide	to	add	more	statements	to	the	body	of	the	while construct	later,	it	is	clear	that	you	should	add	them	to	the	block.	If	you don’t	do	this,	only	the	first	statement	that	immediately	follows	the	Boolean expression	in	the	while	construct	will	be	executed	as	part	of	the	loop, resulting	in	difficult-to-spot	bugs
+
+1. 	kind	of construct	by	combining	the	initialization,	Boolean	expression,	and	code	that updates	the	control	variable. Yes All of Them. Boolean Expression,	it	defaults	to	true,	so	the	following	for	statement	runs forever, 	initialization	and	update	parts,	you	have	a	strangely	spelled while	loop.
+
+1. The	initialization
+
+1. You	can	also	use	a	break	statement	to	jump	out	of	the body	of	an	iteration	statement.	When	you	break	out	of	a	loop,	the	loop	exits immediately,	and	execution	continues	at	the	first	statement	that	follows	the loop.	
+
+1. continue	statement	causes	the	program	to	perform	the next	iteration	of	the	loop	immediately	(after	reevaluating	the	Boolean expression).
+
+1. when you have a secuirity application?

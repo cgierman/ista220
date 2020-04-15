@@ -1,0 +1,25 @@
+# Chance Gierman
+
+## 29 Jan 2020
+
+1. error-handling logic
+
+1. if none of the statements generates an exception, they all run, one after the other, to completion.
+
+1. If the calling method does not use a try block or if there is no matching catch handler, the calling method immediately exits, and execution returns to its caller, where the process is repeated. If a matching catch handler is eventually found, the handler runs and execution continues with the first statement that follows the catch handler in the catching method.
+
+1. after cascading back through the list of calling methods, the runtime is unable to find a matching catch handler, the program will terminate with an unhandled exception.
+
+1. SystemException is itself a member of a wider family simply called Exception, and this is the greatgranddaddy of all exceptions. If you catch Exception, the handler traps every possible exception that can occur.
+
+1. catchErrors	boolean	variable?
+
+1. it see if the string is a integer
+
+1. 2,147,483,648	to	2,147,483,647.
+
+1. 0 to 4,294,967,295. An unsigned variable type of int can hold zero and positive numbers, and a signed int holds negative, zero and positive numbers. NO, If negative numbers are involved, the int must be signed; an unsigned int cannot represent a negative number.
+
+1. always be run, even if an exception occurs.
+
+1. i dont know?

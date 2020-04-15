@@ -1,0 +1,23 @@
+# Chance Gierman
+
+## 19 Feb 2020
+
+1. when you want to write methods that can take any number of arguments, possibly of different types, as parameters.
+
+1. by using params keyword
+
+1. int min = Util.Min(first, second);
+
+1. The compiler just counts the number of int arguments, creates an int array of that size, fills the array with the arguments, and then calls the method by passing the single array parameter.
+
+1. you can pass any number of int arguments in a method call.
+
+1. use a parameters array of type object to declare a method that accepts any number of object arguments, allowing the arguments passed in to be of any type.
+
+1. A method that takes optional parameters still has a fixed parameter list, and you cannot pass an arbitrary list of arguments. A method that uses a parameter array effectively has a completely arbitrary list of parameters, and none of them has a default value.
+
+1. a method that accepts any number of bool arguments
+
+1. someType Method(params bool[] flags)
+
+1. someType Method(params object[] paramList)

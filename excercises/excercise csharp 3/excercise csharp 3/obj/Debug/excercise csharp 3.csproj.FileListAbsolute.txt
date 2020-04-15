@@ -1,0 +1,6 @@
+C:\Users\chanc\source\repos\excercise csharp 3\excercise csharp 3\bin\Debug\excercise csharp 3.exe.config
+C:\Users\chanc\source\repos\excercise csharp 3\excercise csharp 3\bin\Debug\excercise csharp 3.exe
+C:\Users\chanc\source\repos\excercise csharp 3\excercise csharp 3\bin\Debug\excercise csharp 3.pdb
+C:\Users\chanc\source\repos\excercise csharp 3\excercise csharp 3\obj\Debug\excercise csharp 3.csprojAssemblyReference.cache
+C:\Users\chanc\source\repos\excercise csharp 3\excercise csharp 3\obj\Debug\excercise csharp 3.exe
+C:\Users\chanc\source\repos\excercise csharp 3\excercise csharp 3\obj\Debug\excercise csharp 3.pdb

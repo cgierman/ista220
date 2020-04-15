@@ -1,0 +1,27 @@
+# Chance Gierman
+
+## 23 Jan 2020
+
+1. two values: true or false.
+
+1. == (Equal to), != (Not equal to), < (Less Than), <= (Less than or equal to), > (Greater than), >= (Greater than or equal to), && (AND), || (OR)
+
+1. the && and || operators bypass the evaluation of the right operand.	
+
+1. if the left operand of the && operator evaluates to false, the result of the entire expression must be false, regardless of the value of the right operand. And if the value of the left operand of the || operator evaluates to true, the result of the entire expression must be true, irrespective of the value of the right operand.
+
+1. () ++ --, == || &&
+
+1. C# compiler associates only the	first statement	with the if statement.	
+
+1. most common way to stop fall through, but you can also use a return statement to exit from the method containing the switch statement or a throw statement to generate an exception and abort the switch statement.	
+
+1. private static void MyAscRec(int n)
+{
+    if (n < 0) return;     // End of recursion
+    MyAscRec(n - 1);       // Recursive call first so you get the ascending order
+    Console.WriteLine(n);  
+}
+
+1. (A) Using the AND, OR, and NOT. De Morgans laws hold that these two statements will return the same set. (B) "In order for this claim to be true, either or both of A or B must be false" Im not running and walking is a false statement making both statements true.
+

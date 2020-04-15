@@ -1,0 +1,26 @@
+# Chance Gierman
+
+1. A console application is an application that runs in a Command Prompt window instead of providing a graphical user interface (GUI).
+
+2. The Main method designates the program’s entry point. 
+
+3. Namespaces are used to partition code elements by creating a container for items such as classes.
+
+4. A using directive simply brings the items in a namespace into scope and frees you from having to fully qualify the names of classes in your code. 
+
+5. An assembly is a ﬁle that usually has the .dll ﬁle name extension, although strictly speaking, executable programs with the .exe ﬁle name extension are also assemblies. 
+
+6. A single assembly can contain classes deﬁ ned in many namespaces, and a single namespace can span multiple assemblies. 
+
+7. An interactive application with User Interface(UI)
+
+8. MainPage.xaml.
+
+9. Verify if the project builds successfully.
+
+10. Bytecode is a form of instruction set designed for efficient execution by a software interpreter.
+    Common Intermediate Language (CIL) is the intermediate language binary instruction set defined within the Common Language Infrastructure (CLI) specification
+    CIL is a bytecode
+
+11. Execute the project.
+

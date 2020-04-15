@@ -1,0 +1,22 @@
+# Chance Gierman
+
+## 12 Feb 2020
+
+1. int[]
+
+1. heap
+
+1. heap
+
+1. all the elements of the array are initialized to a default value depending on their type. For example, all numeric values default to 0, objects are initialized to null, DateTime values are set to the date and time “01/01/0001 00:00:00”, and strings are initialized to null.
+
+1. The type of this variable must match the type of the elements in the array.
+
+1. int[]	copy	=	new	int[pins.Length]; for	(int	i	=	0;	i	<	pins.Length;	i++) { copy[i] = pins[i]; }
+
+1. you wouldnt use "cube" for array of rays
+
+1. multidimensional, memory access and memory consumption.
+
+1. int[,]	items	=	new	int[1, 2]; 
+

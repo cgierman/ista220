@@ -1,0 +1,42 @@
+# Chance Gierman
+
+## 03 March 2020
+
+1. The Not(~) Operator, 
+The Left-shift (<<) Operator,
+The OR (|) Operator,
+The AND (&) Operator,
+The XOR (^) Operator,
+
+1. Yes it does. uint x = 0b_1001;
+Console.WriteLine($"Before: {Convert.ToString(x, toBase: 2), 4}");
+uint y = x >> 2;
+Console.WriteLine($"After:  {Convert.ToString(y, toBase: 2), 4}");
+
+1. expression uses the left-shift (<<) and bitwise AND (&) operators to determine whether the one bit from the right of the byte variable named bits is set to 0 or to 1
+
+1. if you want to set the bit at position index to 1, you can use the bitwise OR (|) operator.
+
+1. uses the compound assignment operator &= to set the bit at position index to 0
+
+1. Boolean value true is synonymous with the binary value 1, and the Boolean value false is synonymous with the binary value 0.
+
+1. “Set the bit x number of places from the right of the bits variable to 1.”
+
+1. XOR operator (^) to invert the value of the bit at index 6 in the bits variable
+
+1. (A) No permissions
+(B) Read
+(C) Write
+(E) Execute
+(D, f, g, h) No Permissions
+
+1. 0b0_0001
+0b0_0010
+0b0_0100
+0b0_1000
+0b0_0111
+0b0_0011
+0b0_1001
+0b0_1101
+

@@ -1,0 +1,23 @@
+# Chance Gierman
+
+## 24 Feb 2020
+
+1. Managed resources are those that are pure . NET code and managed by the runtime and are under its direct control. Unmanaged resources are those that are not.
+
+1. The CLR must return the memory previously belonging to the object back to the heap; the memory that the object lived in must be deallocated.
+
+1. A destructor is a special method, a little like a constructor, except that the CLR calls it after the reference to an object has disappeared.
+
+1. The syntax for writing a destructor is a tilde (~)
+
+1. Scarce resources such as memory, database connections, or file handle. some resources are just too valuable to lie around waiting for an arbitrary length of time until the garbage collector actually releases them.
+
+1. One way to ensure that a disposal method (such as Close) is always called, regardless of whether there is an exception
+
+1. using statement insures the Dispose method which can dispose of resources porperly.
+
+1. 
+
+1. You could reduce the possibility of resources being released multiple times by moving the statement that sets the disposed field to true closer to the start of the Dispose method
+
+1. you can seriously impair the performance of your application if you call these methods injudiciously. 

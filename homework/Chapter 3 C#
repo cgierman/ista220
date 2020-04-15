@@ -1,0 +1,27 @@
+# Chance Gierman
+
+## 21Jan2020
+
+1. A method is a named sequence of statements
+
+1. Procedure supports transactions but functions do not support transactions. Function has to return one and only one value (another can be returned by OUT variable) but procedure returns as many data sets and return values.
+
+1. consists of the keyword return followed by an expression that specifies the returned value and a semicolon. if a method returns an int, the return statement must return an int; 	
+
+1. a syntactic convenience. use of the => operator to reference the expression that forms the body of the method and the absence of a return statement.	
+
+1. you can define a variable outside a method but within a class, and this variable can be accessed by any method within that class.
+
+1. If two identifiers have the same name and are declared in the same scope.
+
+1. you supply a comma-separated list of arguments, and the number and type of the arguments are used by the compiler to select one of the overloaded methods.
+
+1. When you build an application that uses overloaded methods, the compiler determines which specific instances of each method it should use to satisfy each method call
+
+1. by providing a default value for the parameter.	
+
+1. you specify the name of the parameter, followed by a colon and the value to use.	
+
+1. Write a return statement within the method. and Yes, Write a return statement that returns a tuple. 
+
+1. compiler does not let you compile the application.

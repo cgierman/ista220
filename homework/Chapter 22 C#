@@ -1,0 +1,52 @@
+# Chance Gierman
+
+## 11 April 2020
+
+1. associativity that defines whether the operator
+evaluates from left to right or from right to left.
+and Precedence is a numeric type that has a higher priority then the others
+
+1. A unary operator is an operator that has just one operand. For example,
+the increment operator (++) is a unary operator.
+A binary operator is an operator that has two operands. For example, the
+multiplication operator (*) is a binary operator.
+
+1. You cannot change the precedence and associativity of an operator.
+You cannot change the multiplicity (the number of operands) of an
+operator.
+You cannot invent new operator symbols. 
+You can’t change the meaning of operators when they are applied to builtin types.
+
+1. You use method-like syntax with a return type and parameters, but the name of
+the method is the keyword operator together with the operator symbol you are
+declaring.
+
+1. If you overload an operator,
+you should provide an alternative mechanism that implements the same
+functionality to enable the class to be used from languages that do not
+support operator overloading.
+
+1. yes, A compound assignment operator (such as +=) is always evaluated in terms of
+its associated simple operator (such as +).
+
+1. , you can declare your own version of the increment (++) and
+decrement (- -) operators. The usual rules apply when declaring these operators:
+they must be public, they must be static, and they must be unary
+
+1. The C# compiler enforces
+this very reasonable expectation by insisting that if you define either operator
+== or operator !=, you must define them both.
+
+1. a widening conversion because
+the result is wider than the original value—it contains at least as much
+information as the original value, and nothing is lost. 
+a narrowing conversion because
+the result is narrower than the original value (that is, it can contain less
+information) and can throw an OverflowException exception if the resulting
+value is out of the range of the target type.
+
+1. explicit conversion operator
+requires a cast. If a
+conversion is always safe, does not run the risk of losing information, and cannot
+throw an exception, it can be defined as an implicit conversion. Otherwise, it
+should be declared as an explicit conversion

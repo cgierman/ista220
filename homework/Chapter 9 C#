@@ -1,0 +1,27 @@
+# Chance Gierman
+
+## 11 Feb 2020
+
+1. By using the enum keyword, followed by a set of symbols identifying the legal values that the type can have, enclosing them between braces.
+
+1. enum ranks(seaman recruits, etc)
+
+1. ABE3 Gierman = E4, ABE3 Rone = E4
+
+1. 1 = seaman recruit
+
+1. When you declare an enumeration, the enumeration literals are given values of type int. You can also choose to base your enumeration on a different underlying integer type.
+
+1. A structure is a value type. Because structures are stored on the stack, as long as the structure is reasonably small, the memory management overhead is often reduced.
+
+1. its a value type, You can’t declare a default constructor, cannot initialize instance fields.
+
+1. structures are stored on the stack, as long as the structure is reasonably small.
+
+1. Fields Max and Min Value. Methods: CompareTo(Int32), CompareTo(Object), Equals(Int32), Equals(Object), GetHashCode(), GetTypeCode(), Parse(String), Parse(String, IFormatProvider), Parse(String, NumberStyles), Parse(String, NumberStyles, IFormatProvider), ToString(), ToString(IFormatProvider), ToString(String), ToString(String, IFormatProvider), TryParse(String, Int32), TryParse(String, NumberStyles, IFormatProvider, Int32)
+
+1. strut DOD {private int army, navy, airforce, marines;}
+
+1. The compiler-generated default constructor for a structure always sets the fields to 0, false, or null—just as for a class.
+
+1. Common Intermediate Language (CIL). CLR takes responsibility for converting the CIL instructions into real machine instructions that the processor on your computer can understand and execute.
